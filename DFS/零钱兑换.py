@@ -1,3 +1,5 @@
+from functools import cache
+from math import inf, isqrt
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         # 背包问题的变种。就是打家劫舍改一下，你自己看吧
