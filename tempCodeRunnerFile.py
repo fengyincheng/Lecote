@@ -1,3 +1,4 @@
-n=10
-# path='Q'*n
-# print(f"{path}\n"*n)
+x=1
+# for i in range(1,10,-1):
+#     print(i)
+ 
