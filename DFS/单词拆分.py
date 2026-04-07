@@ -1,5 +1,5 @@
 class Solution:
-    #难的相似
+    #难的相似，灵神的看了眼思路超了一下，当然看不懂啦
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         max_len=max(map(len,wordDict))
         word=set(wordDict)
