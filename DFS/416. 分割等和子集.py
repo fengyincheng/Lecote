@@ -53,6 +53,17 @@ class Solution:
 
             去遍历 / 标记 / 修改外部变量
             """
+            # return dfs(i - 1, c - nums[i]) or dfs(i - 1, c)
+            # 要是前面false了后面是True怎么办
+            """
+            不会有问题，因为 Python 的 or 语义正是：
+
+            A or B
+
+            表示：
+
+            只要 A / B 有一个为 True，整个结果就是 True
+            """
         return dfs(n-1,Sum)
 
 
