@@ -23,7 +23,7 @@ left = 0
 #定义left为全局变量是因为她像个指针一样从索引0开始动。怎么动呢？循环里加一相当于右移了
 max_length = 0
 for right in range(len(s2)):
-    #假设已经过了三轮for循环，现在集合里有acd
+    #假设已经过了三轮for循环，现在集合里有adc
     #第四轮开始了，现在s2取到d,重复了，符合while条件，进循环了
     
     while s2[right] in buchongfu_str:
