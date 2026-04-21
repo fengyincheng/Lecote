@@ -1,4 +1,4 @@
-
+"""
 s = "abcabcbb"
 max_len=0
 n =len(s)
@@ -15,6 +15,7 @@ for i in range(n):
             current_len+=1
     max_len=max(max_len,current_len)
 print(max_len)
+"""
 #上面这些都是按我自己一开始的思路想出来但又没做出来，是gpt帮我改的
 #以下是滑动窗口：
 s2 = "adcdsad"
